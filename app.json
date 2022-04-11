@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "World17",
+    "slug": "world17",
+    "version": "1.1.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.world17.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/World17Group.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.world17.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
